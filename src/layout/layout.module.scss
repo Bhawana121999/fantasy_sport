@@ -1,0 +1,99 @@
+.main_header {
+    padding: 13px 0px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    transition: .5s;
+
+    .top_bar {
+        .content {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 16px;
+
+            a {
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: 500;
+                color: #fff;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 10px;
+
+                svg {
+                    font-size: 16px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .header {
+        padding: 0;
+
+        .logo {
+            position: relative;
+            width: 180px;
+            height: 52px;
+            margin-right: 0 !important;
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .main {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .body {
+                flex: 2;
+
+                .nav {
+                    gap: 16px;
+
+                    .link {
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: #fff;
+                        padding: 0px 10px;
+                    }
+                }
+
+            }
+
+            .left_side {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 20px;
+
+                svg {
+                    font-size: 24px;
+                    color: rgba(22, 22, 22, 1);
+                }
+
+                .btn6:global(.btn) {
+                    background-color: transparent;
+                    border-color: transparent;
+                    padding: 0;
+
+                    svg {
+                        font-size: 24px;
+                        color: rgba(22, 22, 22, 1);
+                    }
+                }
+            }
+        }
+    }
+}
+
