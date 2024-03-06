@@ -67,7 +67,7 @@ export default function page() {
                                         <HiOutlineMailOpen />
                                         <h6 className={style.name}>Send a Mail</h6>
                                         <p className={style.para}>Send your mail for general enquiries</p>
-                                        <Link href='#' className={style.link}> hello@wabisabistays.com</Link>
+                                        <Link href='#' className={style.link}>hello@wabisabistays.com</Link>
                                     </div>
                                 </div>
                                 <div className={`${style.border} col-lg-4 col-md-4 col-sm-4`}>
@@ -96,7 +96,7 @@ export default function page() {
                                         <p className={style.para}>We’d love to hear for you.</p>
                                     </div>
                                     <div className={style.image}>
-                                        <Image src={Images.contact} alt='' fill priority />
+                                        <Image src={Images.form_img} alt='' fill priority />
                                     </div>
                                 </div>
 

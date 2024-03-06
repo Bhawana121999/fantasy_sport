@@ -9,6 +9,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Navigation } from 'swiper/modules';
+import EnquiryForm from '@/components/EnquiryForm/EnquiryForm'
 
 
 
@@ -359,6 +360,112 @@ export default function page() {
                     </Swiper>
                 </div>
             </div>
+
+            <div className={style.our_client}>
+                <div className="container">
+                    <div className={`row ${style.contents}`}>
+
+                        <div className="col-lg-6 col-md-6 col-sm-6">
+                            <h3 className={style.head}>What Our Client Says</h3>
+                            <p className={style.para}>Hear from our clients! Read their stories and experiences in partnering with us for their financial needs.</p>
+                        </div>
+
+                        <div className="col-lg-12 col-md-12 col-sm-12 text-center">
+                            <Swiper
+                                slidesPerView={4}
+                                spaceBetween={20}
+                                loop={true}
+                                autoplay={{
+                                    delay: 3000,
+                                    disableOnInteraction: false,
+                                }}
+                                navigation={true}
+                                modules={[Autoplay, Navigation]}
+                                className={`myswiper3 ${style.myswiper}`}
+                            >
+                                <SwiperSlide>
+                                    <div className={style.slide}>
+                                        <p className={style.card_head}>
+                                            <div className={style.image}>
+                                                <Image src={Images.quote} alt='' fill priority />
+                                            </div>
+                                            Thanks to the fast turn around time and transperant process followed by Arvinder ji and his team we were able to get our requirement of loan met well within time.
+                                            Can easily say that the service offered by team "Regards Marketing" was at par excellence.</p>
+                                        <h4 className={style.name}>Aditya Jain</h4>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div className={style.slide}>
+                                        <p className={style.card_head}>
+                                            <div className={style.image}>
+                                                <Image src={Images.quote} alt='' fill priority />
+                                            </div>
+                                            A truly professional team under the
+                                            leadership of Mr Arvinder. Always ready to listen and help you. This is what is known as
+                                            job well done with sense of duty and involvement. My heartfelt thanks to all. Almighty bless you all</p>
+                                        <h4 className={style.name}>Aditya Bhargava</h4>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div className={style.slide}>
+                                        <p className={style.card_head}>
+                                            <div className={style.image}>
+                                                <Image src={Images.quote} alt='' fill priority />
+                                            </div>
+                                            A truly professional team under the
+                                            leadership of Mr Arvinder. Always ready to listen and help you. This is what is known as
+                                            job well done with sense of duty and involvement. My heartfelt thanks to all. Almighty bless you all</p>
+                                        <h4 className={style.name}>Aditya Bhargava</h4>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div className={style.slide}>
+                                        <p className={style.card_head}>
+                                            <div className={style.image}>
+                                                <Image src={Images.quote} alt='' fill priority />
+                                            </div>
+                                            Thanks to the fast turn around time and transperant process followed by Arvinder ji and his team we were able to get our requirement of loan met well within time.
+                                            Can easily say that the service offered by team "Regards Marketing" was at par excellence.</p>
+                                        <h4 className={style.name}>Aditya Jain</h4>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div className={style.slide}>
+                                        <p className={style.card_head}>
+                                            <div className={style.image}>
+                                                <Image src={Images.quote} alt='' fill priority />
+                                            </div>
+                                            A truly professional team under the
+                                            leadership of Mr Arvinder. Always ready to listen and help you. This is what is known as
+                                            job well done with sense of duty and involvement. My heartfelt thanks to all. Almighty bless you all</p>
+                                        <h4 className={style.name}>Aditya Bhargava</h4>
+                                    </div>
+                                </SwiperSlide>
+
+                                <SwiperSlide>
+                                    <div className={style.slide}>
+                                        <p className={style.card_head}>
+                                            <div className={style.image}>
+                                                <Image src={Images.quote} alt='' fill priority />
+                                            </div>
+                                            Thanks to the fast turn around time and transperant process followed by Arvinder ji and his team we were able to get our requirement of loan met well within time.
+                                            Can easily say that the service offered by team "Regards Marketing" was at par excellence.</p>
+                                        <h4 className={style.name}>Aditya Jain</h4>
+                                    </div>
+                                </SwiperSlide>
+                            </Swiper>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <EnquiryForm />
         </div >
     )
 }

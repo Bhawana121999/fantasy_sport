@@ -1,0 +1,31 @@
+.app_service {
+    padding: 80px 0px 0px 0px;
+    background-image: url('/apps.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+
+    .contents {
+        .heading {
+            font-size: 40px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .para {
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 33px;
+            color: rgba(255, 255, 255, .7);
+        }
+
+        .heading1 {
+            font-size: 28px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 15px;
+            margin-top: 60px;
+        }
+    }
+}

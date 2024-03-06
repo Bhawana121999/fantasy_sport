@@ -1,11 +1,13 @@
 
-import Image from 'next/image'
 import React from 'react'
-import { Images } from '../assets/utility/Images'
 import Games from '@/components/Games/Games'
 import Featured from '@/components/Featured/Featured'
 import AppsLoved from '@/components/AppsLoved/AppsLoved'
 import Banner from '@/components/Banner/Banner'
+import AppServices from '@/components/AppServices/AppServices'
+import AppSolution from '@/components/AppSolution/AppSolution'
+import Benefits from '@/components/Benefits/Benefits'
+import EnquiryForm from '@/components/EnquiryForm/EnquiryForm'
 
 
 export default function page() {
@@ -14,14 +16,20 @@ export default function page() {
     <>
 
       <Banner />
-      
+
       <Games />
 
       <AppsLoved />
 
       <Featured />
 
+      <AppServices />
 
+      <AppSolution />
+
+      <Benefits />
+
+      <EnquiryForm />
     </>
   )
 }

@@ -36,6 +36,10 @@ import order from '@/assets/images/order.webp'
 import mission from '@/assets/images/mission.webp'
 import work1 from '@/assets/images/work1.webp'
 import contact from '@/assets/images/contact.webp'
+import form_img from '@/assets/images/form_img.webp'
+import quote from '@/assets/images/quote.webp'
+import form from '@/assets/images/form.webp'
+import benefit from '@/assets/images/benefit.webp'
 
 export const Images = {
 
@@ -76,5 +80,8 @@ export const Images = {
     order,
     work1,
     contact,
-
+    form_img,
+    quote,
+    form,
+    benefit,
 }
