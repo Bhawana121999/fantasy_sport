@@ -4,7 +4,7 @@ import React, { useEffect } from 'react'
 import style from '@/layout/layout.module.scss'
 import Link from 'next/link';
 import Image from 'next/image'
-import { Images } from '@/app/assets/utility/Images';
+import { Images } from '@/assets/utility/Images';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';

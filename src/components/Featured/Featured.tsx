@@ -4,7 +4,7 @@ import React from 'react'
 import style from '@/components/Featured/Featured.module.scss'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
-import { Images } from '@/app/assets/utility/Images';
+import { Images } from '@/assets/utility/Images';
 import Image from 'next/image';
 
 

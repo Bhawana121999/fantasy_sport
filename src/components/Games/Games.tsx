@@ -1,7 +1,7 @@
 import React from 'react'
 import style from '@/components/Games/Games.module.scss'
 import Image from 'next/image'
-import { Images } from '@/app/assets/utility/Images'
+import { Images } from '@/assets/utility/Images'
 
 export default function Games() {
 

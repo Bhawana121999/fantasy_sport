@@ -7,7 +7,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import Image from 'next/image';
-import { Images } from '@/app/assets/utility/Images';
+import { Images } from '@/assets/utility/Images';
 import Link from 'next/link';
 import { IoIosArrowForward } from "react-icons/io"
 
