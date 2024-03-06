@@ -9,6 +9,7 @@
     transition: .5s;
 
     .top_bar {
+        margin-bottom: 8px;
         .content {
             display: flex;
             flex-direction: row;
@@ -57,12 +58,13 @@
 
             .body {
                 flex: 2;
+                align-items: center;
 
                 .nav {
                     gap: 16px;
 
                     .link {
-                        font-size: 18px;
+                        font-size: 20px;
                         font-weight: 600;
                         color: #fff;
                         padding: 0px 10px;
@@ -92,6 +94,25 @@
                         color: rgba(22, 22, 22, 1);
                     }
                 }
+            }
+        }
+
+        .btn1:global(.btn){
+            background-color: #1C1645;
+            border-color: #1C1645;
+            border-radius: 35px;
+            font-size: 18px;
+            font-weight: 500;
+            color: #fff;
+            padding: 8px 30px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+
+            svg{
+                font-size: 18px;
+                color: #fff;
             }
         }
     }

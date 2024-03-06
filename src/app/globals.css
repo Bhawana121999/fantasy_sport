@@ -22,6 +22,33 @@
   color: #1c1645 !important;
 }
 
+.sticky .item .dropdown-toggle{
+  color: #1c1645 !important;
+}
+
+.item .dropdown-toggle {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  padding: 0px 10px;
+}
+
+.item .dropdown-menu {
+  border-radius: 0 !important;
+  background-color: #fff !important;
+}
+
+.item .dropdown-menu .dropdown-item {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  color: #1c1645 !important;
+  padding: 8px 20px !important;
+}
+
+.item .dropdown-menu .dropdown-item:hover{
+   border-left: 3px solid #00AEEE;
+   color: #00AEEE !important;
+}
 
 /* Home page loved app section */
 
@@ -108,6 +135,6 @@
   height: 50px;
   border-radius: 50%;
   background-color: #1c1645;
-  top:7% !important;
+  top: 7% !important;
   right: 5% !important;
 }

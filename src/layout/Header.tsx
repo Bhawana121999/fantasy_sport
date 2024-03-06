@@ -14,6 +14,8 @@ import { HiOutlineSearch } from "react-icons/hi";
 import { BiUser } from "react-icons/bi";
 import { IoCartOutline } from "react-icons/io5";
 import Banner from '@/components/Banner/Banner';
+import { NavDropdown } from 'react-bootstrap';
+import { FaTelegramPlane } from "react-icons/fa";
 
 
 export default function Header() {
@@ -67,15 +69,22 @@ export default function Header() {
                             <Offcanvas.Body className={`${style.body} d-flex justify-content-center`}>
                                 <Nav className={`${style.nav} justify-content-center pe-3`}>
                                     <Nav.Link href="/" className={`${style.link} item`}>Home</Nav.Link>
-                                    <Nav.Link href="/Shop" className={`${style.link} item`}>Shop</Nav.Link>
+                                    <NavDropdown
+                                        id="nav-dropdown-dark-example"
+                                        title="Services"
+                                        menuVariant="dark"
+                                        className={`${style.link} item`}
+                                    >
+                                        <NavDropdown.Item href="#">Fantasy Sports Application</NavDropdown.Item>
+                                        <NavDropdown.Item href="#">Fantasy Sports Application</NavDropdown.Item>
+                                    </NavDropdown>
                                     <Nav.Link href="/About" className={`${style.link} item`}>About</Nav.Link>
-                                    <Nav.Link href="/Blogs" className={`${style.link} item`}>Blog </Nav.Link>
                                     <Nav.Link href="/Contact" className={`${style.link} item`}>Contact Us </Nav.Link>
                                 </Nav>
                             </Offcanvas.Body>
 
-                            {/* BRFORE SIGN IN */}
-                            {/* <Link href='/signin' className={`${style.btn1} btn`}>SIGN IN/UP</Link> */}
+
+                            <Link href='#' className={`${style.btn1} btn`}>Let's Connect <FaTelegramPlane /></Link>
 
                         </Navbar.Offcanvas>
                     </Container>
@@ -83,7 +92,7 @@ export default function Header() {
             </div>
 
 
-            
+
         </>
     )
 }
