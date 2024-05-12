@@ -35,16 +35,13 @@ export default function Footer() {
               <h5 className={style.heading}>Quick Links</h5>
               <ul className={style.footer_links_list}>
                 <li>
-                  <Link href="/PrivacyPolicy">Privacy Policy</Link>
+                  <Link href="/privacyPolicy">Privacy Policy</Link>
                 </li>
                 <li>
-                  <Link href="/Cancellation">Refunds Policy</Link>
+                  <Link href="/term&condition">Terms and Conditions</Link>
                 </li>
                 <li>
-                  <Link href="/Cancellation">Cancellation</Link>
-                </li>
-                <li>
-                  <Link href="/TermAndCondition">Terms and Conditions</Link>
+                  <Link href="/FantasySports">Fantasy App Development</Link>
                 </li>
               </ul>
             </div>
@@ -55,9 +52,9 @@ export default function Footer() {
               <h5 className={style.heading}>About</h5>
 
               <ul className={style.footer_links_list}>
-                <li><Link href="/AboutUs">About Us</Link></li>
-                <li><Link href="/Blogs">Blogs</Link></li>
-                <li><Link href="/Faq">FAQ’s</Link></li>
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/About">About Us</Link></li>
+                <li><Link href="/faqs">FAQ’s</Link></li>
                 <li><Link href="/Contact">Contact Us</Link></li>
               </ul>
             </div>

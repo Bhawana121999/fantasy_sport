@@ -75,8 +75,8 @@ export default function Header() {
                                         menuVariant="dark"
                                         className={`${style.link} item`}
                                     >
-                                        <NavDropdown.Item href="#">Fantasy Sports Application</NavDropdown.Item>
-                                        <NavDropdown.Item href="#">Fantasy Sports Application</NavDropdown.Item>
+                                        <NavDropdown.Item href="/FantasySports">Fantasy Sports Application</NavDropdown.Item>
+                                        <NavDropdown.Item href="/FantasySports">Fantasy Sports Application</NavDropdown.Item>
                                     </NavDropdown>
                                     <Nav.Link href="/About" className={`${style.link} item`}>About</Nav.Link>
                                     <Nav.Link href="/Contact" className={`${style.link} item`}>Contact Us </Nav.Link>

@@ -1,0 +1,29 @@
+.privacy{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    position: relative;
+    background-color: #2a3347e3;
+
+    .heading{
+        font-size: 40px;
+        font-weight: 600;
+        color: #fff;
+        margin-top: 50px;
+        text-transform: uppercase;
+    }
+
+}
+
+.para{
+    font-size: 18px;
+    font-weight: 400;
+    color: #797979;
+
+    span{
+        color:#2a3347;
+        font-weight: 600;
+    }
+}

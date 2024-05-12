@@ -56,9 +56,9 @@ export default function page() {
                         working with the client. Our working with the client approach helps achieve the results
                         as desired by the client with high satisfaction.</p>
 
-                    <p className={style.title}>Popular brands we worked with</p>
+                    {/* <p className={style.title}>Popular brands we worked with</p> */}
 
-                    <Swiper
+                    {/* <Swiper
                         spaceBetween={30}
                         autoplay={{
                             delay: 2500,
@@ -130,7 +130,7 @@ export default function page() {
                             </div>
                         </SwiperSlide>
 
-                    </Swiper>
+                    </Swiper> */}
 
                 </div>
             </div>
