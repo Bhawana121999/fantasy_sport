@@ -24,9 +24,9 @@ export default function Footer() {
               <div className={style.image}>
                 <Image src={Images.logo} alt='' fill priority />
               </div>
-              <p className={style.para}>SVAP Infotech commits the best solutions as a web and app
-                development company to make your dream turn into reality. We contribute our efforts
-                and make technologies work with your ideas.</p>
+              <p className={style.para}>Digitech Uttarakhand pledges to deliver top-notch solutions as a web and app
+                development company, Transforming your dreams into reality. We dedicate our expertise to bring your ideas
+                to life by seamlessly blending technology.</p>
             </div>
           </div>
 
@@ -42,6 +42,12 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link href="/FantasySports">Fantasy App Development</Link>
+                </li>
+                <li>
+                  <Link href="">Matrimonial App Development</Link>
+                </li>
+                <li>
+                  <Link href="">Digital Marketing Services</Link>
                 </li>
               </ul>
             </div>
@@ -64,10 +70,10 @@ export default function Footer() {
             <div className={style.footer_contact_card}>
               <h5 className={style.heading}>Contact Us</h5>
               <ul className={style.list}>
-                <li className={style.item}><Link href='#'><FiMail /> <span>info@abcd.com</span></Link></li>
-                <li className={style.item}><Link href='#'><MdOutlinePhone /> <span>+91 8562314589</span></Link></li>
-                <li className={style.item}><Link href='#'><FaLocationDot /> <span>Wabi Sabi Stays, Landour,
-                  Kulri, near Picture Palace, Mussoorie, Uttarakhand 248179</span></Link></li>
+                <li className={style.item}><Link href='mailto:digitechuttarakhand@gmail.com'><FiMail /> <span>digitechuttarakhand@gmail.com</span></Link></li>
+                <li className={style.item}><Link href='tel:916398794536'><MdOutlinePhone /> <span>+91 6398794536</span></Link></li>
+                <li className={style.item}><Link href='#'><FaLocationDot /> <span>Tehri Nagar, Gate No-2,
+                  Doon University Road, Dehradun, Uttarakhand - 248001</span></Link></li>
               </ul>
 
               <ul className={style.social_links_list}>

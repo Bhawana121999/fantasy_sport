@@ -31,7 +31,7 @@ export default function Solutions() {
                                     <Image src={card} alt='' fill priority />
                                 </div>
                             </div>
-                            <h6 className={style.title}>ED Tech</h6>
+                            <h6 className={style.title}>Matrimonial App Development</h6>
                         </div>
                     </div>
 
@@ -64,7 +64,7 @@ export default function Solutions() {
                                     <Image src={manufacture} alt='' fill priority />
                                 </div>
                             </div>
-                            <h6 className={style.title}>Manufacturing</h6>
+                            <h6 className={style.title}>MLM Software Development</h6>
                         </div>
                     </div>
 
@@ -86,7 +86,7 @@ export default function Solutions() {
                                     <Image src={medical} alt='' fill priority />
                                 </div>
                             </div>
-                            <h6 className={style.title}>Healthcare</h6>
+                            <h6 className={style.title}>Hotel Management Software</h6>
                         </div>
                     </div>
 
@@ -130,7 +130,7 @@ export default function Solutions() {
                                     <Image src={estate} alt='' fill priority />
                                 </div>
                             </div>
-                            <h6 className={style.title}>Real Estate</h6>
+                            <h6 className={style.title}>Accounting & Billing Software</h6>
                         </div>
                     </div>
 

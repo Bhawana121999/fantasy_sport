@@ -12,8 +12,8 @@ export default function EnquiryForm() {
                 <div className="row justify-content-between">
                     <div className="col-lg-5 col-md-5 col-sm-5">
                         <div className={style.content}>
-                            <h1 className={style.heading}>Interested in working</h1>
-                            <p className={style.para}>with us? Let's talk and get started</p>
+                            <h1 className={style.heading}>Please Feel Free to get in touch using the form below.</h1>
+                            <p className={style.para}>We’d love to hear for you.</p>
 
                             <div className={style.inputs}>
                                 <div className="row">

@@ -46,8 +46,8 @@ export default function Header() {
                 <div className={`${style.top_bar} top_bar`}>
                     <div className="container">
                         <div className={style.content}>
-                            <Link href='#' className='link'><LuMail /> info@tribalarts.com</Link>
-                            <Link href='#' className='link'><LuPhoneCall /> 969-8525-452</Link>
+                            <Link href='mailto:digitechuttarakhand@gmail.com' className='link'><LuMail /> digitechuttarakhand@gmail.com</Link>
+                            <Link href='tel:916398794536' className='link'><LuPhoneCall /> +91 6398794536</Link>
                         </div>
                     </div>
                 </div>

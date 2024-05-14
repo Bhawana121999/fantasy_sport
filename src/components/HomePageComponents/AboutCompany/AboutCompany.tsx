@@ -49,7 +49,7 @@ export default function AboutCompany() {
         <div className="row">
           <div className="col-lg-12 col-md-12 col-sm-12 text-center">
             <h2 className={style.heading}>Develop a strategy that effectively utilizes your funds.</h2>
-            <p className={style.para}>Titans India, founded in 2020, is a forward-thinking organization committed to
+            <p className={style.para}>Digitech Uttarakhand, founded in 2020, is a forward-thinking organization committed to
               delivering state-of-the-art corporate solutions to fuel business expansion and optimize operational
               effectiveness. Our extensive range of IT services encompasses bespoke applications designed to meet
               essential business requirements, spanning Website Design and Development, Digital Marketing, and App
@@ -91,8 +91,7 @@ export default function AboutCompany() {
                 <div className={`${style.nav} nav flex-column nav-pills me-3`} id="v-pills-tab" role="tablist" aria-orientation="vertical">
                   <button className={`${style.nav_link} nav-link active`} id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Software Development</button>
                   <button className={`${style.nav_link} nav-link`} id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">CRM</button>
-                  <button className={`${style.nav_link} nav-link`} id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">ERP</button>
-                  <button className={`${style.nav_link} nav-link`} id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">EdTech</button>
+                  <button className={`${style.nav_link} nav-link`} id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">MLM Software DEvelopment</button>
                   <button className={`${style.nav_link} nav-link`} id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Web Development</button>
                   <button className={`${style.nav_link} nav-link`} id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Mobile App</button>
                   <button className={`${style.nav_link} nav-link`} id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ecommerce</button>
