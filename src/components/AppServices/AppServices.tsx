@@ -11,7 +11,7 @@ export default function AppServices() {
                     <div className="col-lg-7 col-md-7 col-sm-7">
                         <div className={style.contents}>
                             <h1 className={style.heading}>Fantasy Sports App Development Services With an Edge</h1>
-                            <p className={style.para}>SVAP Infotech is a renowned fantasy sports app development
+                            <p className={style.para}>Digitech Uttarakhand is a renowned fantasy sports app development
                                 company popular for creating engaging fantasy sports apps. Having developed more
                                 than 50 breathtaking fantasy apps for clients around the world, we have hands-on
                                 experience, skilled and qualified fantasy sports app developers to deliver that
@@ -25,11 +25,11 @@ export default function AppServices() {
                             <h1 className={style.heading1}>We make fantasy sports gaming fun and entertaining!</h1>
                             <p className={style.para}>The creative brains at work leave no stone unturned to
                                 build apps that render freshness and captivate users from the word go. The
-                                fantasy sports app developers at SVAP, on the other hand, are equally committed
+                                fantasy sports app developers at Digitech Uttarakhand, on the other hand, are equally committed
                                 to delivering excellence - irrespective of the challenges and unique client
                                 demands.</p>
                             <p className={style.para}>Build a fresh, never-experienced-before fantasy sports
-                                app with SVAP, which we’re sure you’d not regret.</p>
+                                app with Digitech Uttarakhand, which we’re sure you’d not regret.</p>
                         </div>
                     </div>
                 </div>

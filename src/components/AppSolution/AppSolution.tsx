@@ -52,7 +52,7 @@ export default function AppSolution() {
                         <div className={style.card}>
                             <div className={style.content}>
                                 <h6 className={style.heading}>Fantasy Analytics Software Services</h6>
-                                <p className={style.para}>Look no further than SVAP for fantasy analytics
+                                <p className={style.para}>Look no further than Digitech Uttarakhand for fantasy analytics
                                     software services, we are doing it for the past several years. We know how
                                     it’s done and we do it in the best way possible.</p>
                             </div>
@@ -63,7 +63,7 @@ export default function AppSolution() {
                         <div className={style.card}>
                             <div className={style.content}>
                                 <h6 className={style.heading}>Fantasy Sports Software Solution</h6>
-                                <p className={style.para}>Put an end to your search, SVAP Infotech is here to
+                                <p className={style.para}>Put an end to your search, Digitech Uttarakhand Infotech is here to
                                     assist you in building the industry’s best fantasy sports software your business
                                     needs and users want. Create a customized sports solution that fits within your
                                     budget. Ask now, how?</p>

@@ -4,7 +4,10 @@ import React, { useState } from 'react'
 import style from '@/components/HomePageComponents/AboutCompany/AboutCompany.module.scss'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import popular from '@/assets/images/popular.webp';
+import popular1 from '@/assets/images/popular1.webp';
+import popular2 from '@/assets/images/popular2.webp';
+import popular3 from '@/assets/images/popular3.webp';
+import popular4 from '@/assets/images/popular4.webp';
 import Image from 'next/image';
 import { Autoplay } from 'swiper/modules';
 
@@ -14,31 +17,31 @@ export default function AboutCompany() {
 
   const [brandArr, setBrandArr] = useState([
     {
-      img: popular,
+      img: popular2,
     },
     {
-      img: popular,
+      img: popular3,
     },
     {
-      img: popular,
+      img: popular1,
     },
     {
-      img: popular,
+      img: popular4,
     },
     {
-      img: popular,
+      img: popular2,
     },
     {
-      img: popular,
+      img: popular3,
     },
     {
-      img: popular,
+      img: popular1,
     },
     {
-      img: popular,
+      img: popular4,
     },
     {
-      img: popular,
+      img: popular3,
     },
   ])
 

@@ -45,11 +45,11 @@ export default function page() {
                         <p className={style.para}>Our Experts Are Eager To Turn Your Idea Into A Brilliant Product</p>
                     </div>
 
-                    <p className={style.desc}>The pillars of SVAP InfoTech Private Limited, an IT firm based in
-                        Jaipur, was established back in the year 2014 to create a platform that can supervise and
+                    <p className={style.desc}>The pillars of Digitech Uttarakhand, an IT firm based in
+                        Jaipur, was established back in the year 2020 to create a platform that can supervise and
                         fulfill the IT requirements of both emerging and established organizations. We started from
                         scratch with a basic idea of becoming competent enough to analyze, understand and provide
-                        the best IT solutions to the seekers. Today, we at SVAP InfoTech are a bunch of creative
+                        the best IT solutions to the seekers. Today, we at Digitech Uttarakhand are a bunch of creative
                         minds and dedicated hearts who keep their work at the top of their priority list. We
                         strive to fulfill our commitments in a highly professional manner. Also, we do not focus
                         on working as per the requirements directed by the client but with the concept of
@@ -138,8 +138,8 @@ export default function page() {
 
             <div className={style.generate}>
                 <div className="container">
-                    <div className="row  justify-content-center">
-                        <div className="col-lg-6 col-md-6 col-sm-6 d-flex flex-column justify-content-center ">
+                    <div className="row">
+                        <div className="col-lg-12 col-md-12 col-sm-12 text-center">
                             <h1 className={style.heading}>We generate outstanding results</h1>
                             <p className={style.para}>Most enterprises have transformed their workingwith our solutions
                                 and services</p>
@@ -187,7 +187,7 @@ export default function page() {
                                 </div>
                                 <div className={style.content}>
                                     <h6 className={style.heading}>Online ordering, Easy payments</h6>
-                                    <p className={style.para}>We at SVAP InfoTech work with a vision of giving Credibility, Innovation, Quality, and Trust
+                                    <p className={style.para}>We at Digitech Uttarakhand work with a vision of giving Credibility, Innovation, Quality, and Trust
                                         a whole new definition. We look at achieving goals with our actions rather than words.</p>
                                 </div>
                             </div>
@@ -210,7 +210,7 @@ export default function page() {
                 </div>
             </div>
 
-            <div className={style.recent_work}>
+            {/* <div className={style.recent_work}>
                 <div className="container">
                     <div className="row  justify-content-center">
                         <div className="col-lg-7 col-md-8 col-sm-8 d-flex flex-column justify-content-center">
@@ -359,13 +359,13 @@ export default function page() {
 
                     </Swiper>
                 </div>
-            </div>
+            </div> */}
 
             <div className={style.our_client}>
                 <div className="container">
                     <div className={`row ${style.contents}`}>
 
-                        <div className="col-lg-6 col-md-6 col-sm-6">
+                        <div className="col-lg-5 col-md-5 col-sm-5">
                             <h3 className={style.head}>What Our Client Says</h3>
                             <p className={style.para}>Hear from our clients! Read their stories and experiences in partnering with us for their financial needs.</p>
                         </div>

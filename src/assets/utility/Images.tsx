@@ -40,6 +40,8 @@ import form_img from '@/assets/images/form_img.webp'
 import quote from '@/assets/images/quote.webp'
 import form from '@/assets/images/form.webp'
 import benefit from '@/assets/images/benefit.webp'
+import footer_logo from '@/assets/images/footer_logo.webp'
+
 
 export const Images = {
 
@@ -84,4 +86,5 @@ export const Images = {
     quote,
     form,
     benefit,
+    footer_logo,
 }

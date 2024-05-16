@@ -1,11 +1,11 @@
 .solution_sec {
     padding-top: 80px;
-    background-color: #0c111a;
+    // background-color: #0c111a;
 
     .heading {
         font-size: 40px;
         font-weight: 800;
-        color: #fff;
+        color: #0c111a;
         margin-bottom: 15px;
         text-align: center;
     }
@@ -14,7 +14,7 @@
         font-size: 18px;
         line-height: 28px;
         margin-bottom: 33px;
-        color: rgba(255, 255, 255, .7);
+        color: #0c111a;
         text-align: center;
     }
 
@@ -24,7 +24,7 @@
         align-items: center;
         flex-wrap: wrap;
         gap: 20px;
-        background-color: rgb(255, 255, 255, .1);
+        background-color: #0c111a21;
         padding: 30px;
         margin-bottom: 30px;
 
@@ -48,14 +48,14 @@
             .heading {
                 font-size: 24px;
                 font-weight: 700;
-                color: #fff;
+                color: #0c111a;
                 margin-bottom: 10px;
             }
 
             .para {
                 font-size: 18px;
                 font-weight: 300;
-                color: rgb(255, 255, 255, .4);
+                color: #0c111a;
                 margin-bottom: 0;
             }
         }

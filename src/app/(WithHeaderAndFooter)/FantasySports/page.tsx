@@ -26,7 +26,7 @@ export default function page() {
 
             <AppSolution />
 
-            <Benefits />
+            {/* <Benefits /> */}
 
             <EnquiryForm />
 

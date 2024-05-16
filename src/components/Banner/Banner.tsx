@@ -15,7 +15,7 @@ export default function Banner() {
 
       <div className={style.content}>
         <div className="row g-0 justify-content-center">
-          <div className="col-lg-7 col-md-7 col-sm-7">
+          <div className="col-lg-10 col-md-10 col-sm-10">
             <h1 className={style.heading}>Fantasy Sports App Development Company</h1>
             <p className={style.para}>We have customized and created 50+ fantasy applications with creative solutions Immersive and intuitive fantasy applications backed by eminent technology and technical competence. With hands-on experience of 50+ fantasy applications, our fantasy sports app developers know exactly what goes into building an amazing fantasy app that users love. Get started by sharing your requirements and be assured of receiving a scalable and future-ready solution.</p>
 

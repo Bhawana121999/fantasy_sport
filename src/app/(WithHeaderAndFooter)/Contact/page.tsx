@@ -7,7 +7,7 @@ import style from '@/app/(WithHeaderAndFooter)/Contact/Contact.module.scss'
 import { Images } from '@/assets/utility/Images'
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { HiOutlineMailOpen } from "react-icons/hi";
-import { MdSupportAgent } from "react-icons/md";
+import { FaRegAddressBook } from "react-icons/fa6";
 import Link from 'next/link';
 import Form from 'react-bootstrap/Form';
 import { AiOutlineUser } from "react-icons/ai";
@@ -59,7 +59,7 @@ export default function page() {
                                         <MdOutlineLocalPhone />
                                         <h6 className={style.name}>Make a Call</h6>
                                         <p className={style.para}>Make a call for your general enquiries</p>
-                                        <Link href='#' className={style.link}>+91 96670 65066</Link>
+                                        <Link href='tel:916398794536' className={style.link}>+91 6398794536</Link>
                                     </div>
                                 </div>
                                 <div className={`${style.border} col-lg-4 col-md-4 col-sm-4`}>
@@ -67,15 +67,14 @@ export default function page() {
                                         <HiOutlineMailOpen />
                                         <h6 className={style.name}>Send a Mail</h6>
                                         <p className={style.para}>Send your mail for general enquiries</p>
-                                        <Link href='#' className={style.link}>hello@wabisabistays.com</Link>
+                                        <Link href='mailto:digitechuttarakhand@gmail.com' className={style.link}> digitechuttarakhand@gmail.com</Link>
                                     </div>
                                 </div>
-                                <div className={`${style.border} col-lg-4 col-md-4 col-sm-4`}>
+                                <div className={`${style.border} col-lg-4 col-md-4 col-sm-4 text-center`}>
                                     <div className={style.contact_box}>
-                                        <MdSupportAgent />
-                                        <h6 className={style.name}>Toll Free</h6>
-                                        <p className={style.para}>Toll free number for staying guest</p>
-                                        <Link href='#' className={style.link}>1800-6002-1234</Link>
+                                        <FaRegAddressBook />
+                                        <h6 className={style.name}>Address</h6>
+                                        <Link href='#' className={style.link}>Tehri Nagar, Gate No-2, Doon University Road, Dehradun, Uttarakhand - 248001</Link>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +91,7 @@ export default function page() {
                                 <div className={style.top_content}>
                                     <div className={style.left_side}>
                                         <h6 className={style.title}>Send Your Message</h6>
-                                        <p className={style.para}>Please Fill Free to get in touch using the form below.</p>
+                                        <p className={style.para}>Please Feel Free to get in touch using the form below.</p>
                                         <p className={style.para}>We’d love to hear for you.</p>
                                     </div>
                                     <div className={style.image}>

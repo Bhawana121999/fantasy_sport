@@ -11,19 +11,19 @@
 .sticky .top_bar .link {
   font-size: 16px !important;
   font-weight: 600 !important;
-  color: #00AEEE !important;
+  color: #2E5490 !important;
 }
 
 .sticky .top_bar .link svg {
-  color: #00AEEE !important;
+  color: #2E5490 !important;
 }
 
 .sticky .nav_bar .item {
-  color: #1c1645 !important;
+  color: #1a1a1a !important;
 }
 
 .sticky .item .dropdown-toggle{
-  color: #1c1645 !important;
+  color: #1a1a1a !important;
 }
 
 .item .dropdown-toggle {
@@ -41,13 +41,13 @@
 .item .dropdown-menu .dropdown-item {
   font-size: 16px !important;
   font-weight: 600 !important;
-  color: #1c1645 !important;
+  color: #1a1a1a !important;
   padding: 8px 20px !important;
 }
 
 .item .dropdown-menu .dropdown-item:hover{
-   border-left: 3px solid #00AEEE;
-   color: #00AEEE !important;
+   border-left: 3px solid #2E5490;
+   color: #2E5490 !important;
 }
 
 /* Home page loved app section */
@@ -56,7 +56,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #1c1645;
+  background-color: #2E5490;
   left: unset !important;
   top: 50% !important;
   right: 10% !important;
@@ -76,7 +76,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #1c1645;
+  background-color: #2E5490;
   top: 50% !important;
   right: 5% !important;
 }
@@ -88,7 +88,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #1c1645;
+  background-color: #2E5490;
 }
 
 .myswiper2 .swiper-button-prev:after {
@@ -105,7 +105,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #1c1645;
+  background-color: #2E5490;
 }
 
 
@@ -114,7 +114,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #1c1645;
+  background-color: #2E5490;
   left: unset !important;
   top: 7% !important;
   right: 10% !important;
@@ -134,7 +134,7 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #1c1645;
+  background-color: #2E5490;
   top: 7% !important;
   right: 5% !important;
 }

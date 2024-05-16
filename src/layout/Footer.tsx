@@ -22,7 +22,7 @@ export default function Footer() {
           <div className="col-xl-3 col-lg-3 col-md-3 d-flex flex-column align-items-center">
             <div className={style.content}>
               <div className={style.image}>
-                <Image src={Images.logo} alt='' fill priority />
+                <Image src={Images.footer_logo} alt='' fill priority />
               </div>
               <p className={style.para}>Digitech Uttarakhand pledges to deliver top-notch solutions as a web and app
                 development company, Transforming your dreams into reality. We dedicate our expertise to bring your ideas
