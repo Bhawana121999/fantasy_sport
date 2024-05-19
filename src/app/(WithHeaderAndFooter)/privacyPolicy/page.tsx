@@ -20,7 +20,7 @@ export default function page() {
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 col-md-12 col-sm-12 pt-5 pb-5">
-                            <p className={style.para}>At <span>Titans India</span>, we display an extensive portfolio of our work for you, so, you can check it out before hiring us.
+                            <p className={style.para}>At <span>Digitech Uttarakhand</span>, we display an extensive portfolio of our work for you, so, you can check it out before hiring us.
                                 By the way of checking you are able to understand the quality of work we are going to offer and most of the above,
                                 we first clear all your doubts and take confirmation to precede the work. If you have any question about our services,
                                 work or anything else, you are free to visit our office, mail your query or call us before making payment. We are here

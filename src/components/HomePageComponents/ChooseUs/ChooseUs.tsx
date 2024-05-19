@@ -11,7 +11,7 @@ export default function ChooseUs() {
                     <div className="col-lg-4 col-md-4 col-sm-4">
                         <span className={style.span}>Why Choose Us</span>
                         <h2 className={style.heading}>When your ideas mix with our knowledge</h2>
-                        <p className={style.para}>Titans India offers help with making mobile apps and websites. We'll guide you from the start to finish, even after your app is done. Whatever you need for your mobile app, we've got you covered.</p>
+                        <p className={style.para}>Digitech Uttarakhand offers help with making mobile apps and websites. We'll guide you from the start to finish, even after your app is done. Whatever you need for your mobile app, we've got you covered.</p>
                     </div>
 
                     <div className="col-lg-8 col-md-8 col-sm-8">

@@ -92,7 +92,7 @@ export default function Footer() {
       <div className="row g-0">
         <div className="col-lg-12 col-md-12 col-sm-12">
           <div className={style.bottom_bar}>
-            © Copyright - 2024 Titans India. All Rights Reserved.
+            © Copyright - 2024 Digitech Uttarakhand. All Rights Reserved.
           </div>
         </div>
       </div>

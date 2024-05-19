@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import style from '@/layout/layout.module.scss'
 import Link from 'next/link';
 import Image from 'next/image'
@@ -16,9 +16,12 @@ import { IoCartOutline } from "react-icons/io5";
 import Banner from '@/components/Banner/Banner';
 import { NavDropdown } from 'react-bootstrap';
 import { FaTelegramPlane } from "react-icons/fa";
+import CoonectModal from '@/components/CoonectModal';
 
 
 export default function Header() {
+
+    const [modalShow, setModalShow] = useState(false)
 
     const handleScroll = () => {
         let header: any = document.getElementById("myheader");
@@ -76,7 +79,12 @@ export default function Header() {
                                         className={`${style.link} item`}
                                     >
                                         <NavDropdown.Item href="/FantasySports">Fantasy Sports Application</NavDropdown.Item>
-                                        <NavDropdown.Item href="/FantasySports">Fantasy Sports Application</NavDropdown.Item>
+                                        <NavDropdown.Item href="/">Software Development</NavDropdown.Item>
+                                        <NavDropdown.Item href="/">MLM Software Development</NavDropdown.Item>
+                                        <NavDropdown.Item href="/">Web Development</NavDropdown.Item>
+                                        <NavDropdown.Item href="/">Mobile App Development</NavDropdown.Item>
+                                        <NavDropdown.Item href="/">Ecommerce</NavDropdown.Item>
+                                        <NavDropdown.Item href="/">Digital Marketing</NavDropdown.Item>
                                     </NavDropdown>
                                     <Nav.Link href="/About" className={`${style.link} item`}>About</Nav.Link>
                                     <Nav.Link href="/Contact" className={`${style.link} item`}>Contact Us </Nav.Link>
@@ -84,14 +92,17 @@ export default function Header() {
                             </Offcanvas.Body>
 
 
-                            <Link href='#' className={`${style.btn1} btn`}>Let's Connect <FaTelegramPlane /></Link>
+                            <button onClick={() => setModalShow(true)} className={`${style.btn1} btn`}>Let's Connect <FaTelegramPlane /></button>
 
                         </Navbar.Offcanvas>
                     </Container>
                 </Navbar>
             </div>
 
-
+            <CoonectModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
 
         </>
     )

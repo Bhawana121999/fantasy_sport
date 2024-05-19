@@ -47,7 +47,7 @@ export default function page() {
                                 <span className={style.title}>Our Location</span>
                                 <h6 className={style.head}>Our Office Address</h6>
                             </div>
-                            <p className={style.desc}>Wabi Sabi Stays, Landour, Kulri, near Picture Palace, Mussoorie, Uttarakhand 248179</p>
+                            <p className={style.desc}>Tehri Nagar, Gate No-2, Doon University Road, Dehradun, Uttarakhand - 248001</p>
                         </div>
                     </div>
 
@@ -94,9 +94,9 @@ export default function page() {
                                         <p className={style.para}>Please Feel Free to get in touch using the form below.</p>
                                         <p className={style.para}>We’d love to hear for you.</p>
                                     </div>
-                                    <div className={style.image}>
+                                    {/* <div className={style.image}>
                                         <Image src={Images.form_img} alt='' fill priority />
-                                    </div>
+                                    </div> */}
                                 </div>
 
                                 <div className="row mt-4">

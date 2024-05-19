@@ -10,6 +10,7 @@ import popular3 from '@/assets/images/popular3.webp';
 import popular4 from '@/assets/images/popular4.webp';
 import Image from 'next/image';
 import { Autoplay } from 'swiper/modules';
+import { FaLongArrowAltRight } from 'react-icons/fa';
 
 
 
@@ -18,30 +19,39 @@ export default function AboutCompany() {
   const [brandArr, setBrandArr] = useState([
     {
       img: popular2,
+      appName: 'Geo Go Infotech',
     },
     {
       img: popular3,
+      appName: 'Sports Inning',
     },
     {
       img: popular1,
+      appName: 'Cricfast',
     },
     {
       img: popular4,
+      appName: 'Fantasy Cric Mama',
     },
     {
       img: popular2,
+      appName: 'Geo Go Infotech',
     },
     {
       img: popular3,
+      appName: 'Sports Inning',
     },
     {
       img: popular1,
+      appName: 'Cricfast',
     },
     {
       img: popular4,
+      appName: 'Fantasy Cric Mama',
     },
     {
       img: popular3,
+      appName: 'Sports Inning',
     },
   ])
 
@@ -57,15 +67,13 @@ export default function AboutCompany() {
               effectiveness. Our extensive range of IT services encompasses bespoke applications designed to meet
               essential business requirements, spanning Website Design and Development, Digital Marketing, and App
               Development. By prioritizing strategic foresight, substantial value addition, and flexible execution,
-              Titans India stands out as the preferred ally for enterprises in search of customized, top-tier
+              Digitech Uttarakhand stands out as the preferred ally for enterprises in search of customized, top-tier
               software solutions.</p>
-
-            <h6 className={style.head}>Popular brands we worked with</h6>
 
             <Swiper
               navigation={true}
               spaceBetween={20}
-              slidesPerView={6}
+              slidesPerView={1}
               autoplay={{
                 delay: 2500,
                 disableOnInteraction: false,
@@ -76,15 +84,22 @@ export default function AboutCompany() {
               {
                 brandArr && brandArr?.length && brandArr?.map((el, i) => (
                   <SwiperSlide className={style.slide} key={i}>
-                    <div className={style.image}>
-                      <Image src={el?.img} alt='' fill priority />
+                    <div className={style.main_content}>
+                      <div className={style.image}>
+                        <Image src={el?.img} alt='' fill priority />
+                      </div>
                     </div>
+                    <h6 className={style.head}>Are you looking for an App like <span>{el?.appName} ?</span></h6>
                   </SwiperSlide>
 
                 ))
               }
 
             </Swiper>
+
+            <div className={style.buttons}>
+              <button className={`${style.btn1} btn`}>Let's Connect <FaLongArrowAltRight /></button>
+            </div>
           </div>
 
           <div className="col-lg-12 col-md-12 col-sm-12 mt-5">
@@ -94,7 +109,7 @@ export default function AboutCompany() {
                 <div className={`${style.nav} nav flex-column nav-pills me-3`} id="v-pills-tab" role="tablist" aria-orientation="vertical">
                   <button className={`${style.nav_link} nav-link active`} id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Software Development</button>
                   <button className={`${style.nav_link} nav-link`} id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">CRM</button>
-                  <button className={`${style.nav_link} nav-link`} id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">MLM Software DEvelopment</button>
+                  <button className={`${style.nav_link} nav-link`} id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">MLM Software Development</button>
                   <button className={`${style.nav_link} nav-link`} id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Web Development</button>
                   <button className={`${style.nav_link} nav-link`} id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Mobile App</button>
                   <button className={`${style.nav_link} nav-link`} id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Ecommerce</button>
@@ -106,7 +121,7 @@ export default function AboutCompany() {
                 <div className="tab-content" id="v-pills-tabContent">
                   <div className={`${style.tab_pane} tab-pane fade show active`} id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                     <h2 className={style.heading}>Software Development</h2>
-                    <p className={style.para}>Titans India software development services are designed to create custom, scalable, and robust solutions that cater to the unique needs of each client. Our expert team of developers, utilizing the latest technologies and methodologies, collaborates closely with clients to deliver software applications that drive efficiency, innovation, and competitive advantage.</p>
+                    <p className={style.para}>Digitech Uttarakhand software development services are designed to create custom, scalable, and robust solutions that cater to the unique needs of each client. Our expert team of developers, utilizing the latest technologies and methodologies, collaborates closely with clients to deliver software applications that drive efficiency, innovation, and competitive advantage.</p>
                     <p className={style.head}>Key USPs of our software development services:</p>
                     <ul className={style.list}>
                       <li className={style.item}>Bespoke solutions tailored to individual client requirements</li>
