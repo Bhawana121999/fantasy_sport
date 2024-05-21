@@ -60,7 +60,7 @@ export default function Footer() {
               <ul className={style.footer_links_list}>
                 <li><Link href="/">Home</Link></li>
                 <li><Link href="/About">About Us</Link></li>
-                <li><Link href="/faqs">FAQ’s</Link></li>
+                {/* <li><Link href="/faqs">FAQ’s</Link></li> */}
                 <li><Link href="/Contact">Contact Us</Link></li>
               </ul>
             </div>

@@ -1,14 +1,17 @@
 .sticky {
   position: fixed !important;
-  background-color: #fff !important;
+  width: 100%;
+  z-index: 5 !important;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* background-color: #fff !important;
   box-shadow: 0 0 20px rgba(0, 0, 0, .1) !important;
   top: 0 !important;
   right: 0 !important;
   left: 0 !important;
-  z-index: 5 !important;
+  z-index: 5 !important; */
 }
 
-.sticky .top_bar .link {
+/* .sticky .top_bar .link {
   font-size: 16px !important;
   font-weight: 600 !important;
   color: #2E5490 !important;
@@ -24,12 +27,12 @@
 
 .sticky .item .dropdown-toggle{
   color: #1a1a1a !important;
-}
+} */
 
 .item .dropdown-toggle {
   font-size: 20px !important;
   font-weight: 600 !important;
-  color: #fff !important;
+  color: #2E5490 !important;
   padding: 0px 10px;
 }
 

@@ -54,7 +54,7 @@ export default function page() {
                     <div className="row justify-content-center">
                         <div className="col-lg-10 col-md-10 col-sm-10">
                             <div className="row">
-                                <div className={`${style.border} col-lg-4 col-md-4 col-sm-4`}>
+                                <div className={`${style.border} col-lg-6 col-md-6 col-sm-6`}>
                                     <div className={style.contact_box}>
                                         <MdOutlineLocalPhone />
                                         <h6 className={style.name}>Make a Call</h6>
@@ -62,7 +62,7 @@ export default function page() {
                                         <Link href='tel:916398794536' className={style.link}>+91 6398794536</Link>
                                     </div>
                                 </div>
-                                <div className={`${style.border} col-lg-4 col-md-4 col-sm-4`}>
+                                <div className={`${style.border} col-lg-6 col-md-6 col-sm-6`}>
                                     <div className={style.contact_box}>
                                         <HiOutlineMailOpen />
                                         <h6 className={style.name}>Send a Mail</h6>
@@ -70,13 +70,13 @@ export default function page() {
                                         <Link href='mailto:digitechuttarakhand@gmail.com' className={style.link}> digitechuttarakhand@gmail.com</Link>
                                     </div>
                                 </div>
-                                <div className={`${style.border} col-lg-4 col-md-4 col-sm-4 text-center`}>
+                                {/* <div className={`${style.border} col-lg-4 col-md-4 col-sm-4 text-center`}>
                                     <div className={style.contact_box}>
                                         <FaRegAddressBook />
                                         <h6 className={style.name}>Address</h6>
                                         <Link href='#' className={style.link}>Tehri Nagar, Gate No-2, Doon University Road, Dehradun, Uttarakhand - 248001</Link>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
