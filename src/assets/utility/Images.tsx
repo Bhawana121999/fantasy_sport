@@ -42,6 +42,16 @@ import form from '@/assets/images/form.webp'
 import benefit from '@/assets/images/benefit.webp'
 import footer_logo from '@/assets/images/footer_logo.webp'
 
+import web from '@/assets/images/web.webp'
+import service1 from '@/assets/images/service1.webp'
+import service2 from '@/assets/images/service2.webp'
+import service3 from '@/assets/images/service3.webp'
+import service4 from '@/assets/images/service4.webp'
+import service5 from '@/assets/images/service5.webp'
+import service6 from '@/assets/images/service6.webp'
+
+import process from '@/assets/images/process.webp'
+
 
 export const Images = {
 
@@ -87,4 +97,12 @@ export const Images = {
     form,
     benefit,
     footer_logo,
+    web,
+    service1,
+    service2,
+    service3,
+    service4,
+    service5,
+    service6,
+    process,
 }
