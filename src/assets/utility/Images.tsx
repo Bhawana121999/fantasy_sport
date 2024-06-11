@@ -52,6 +52,13 @@ import service6 from '@/assets/images/service6.webp'
 
 import process from '@/assets/images/process.webp'
 
+import mobile_app from '@/assets/images/mobile_app.webp'
+import mobile_feat1 from '@/assets/images/mobile_feat1.webp'
+import mobile_feat2 from '@/assets/images/mobile_feat2.webp'
+import mobile_feat3 from '@/assets/images/mobile_feat3.webp'
+import mobile_feat4 from '@/assets/images/mobile_feat4.webp'
+import mobile_feat5 from '@/assets/images/mobile_feat5.webp'
+
 
 export const Images = {
 
@@ -105,4 +112,10 @@ export const Images = {
     service5,
     service6,
     process,
+    mobile_app,
+    mobile_feat1,
+    mobile_feat2,
+    mobile_feat3,
+    mobile_feat4,
+    mobile_feat5,
 }

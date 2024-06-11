@@ -82,7 +82,7 @@ export default function Header() {
                                         <NavDropdown.Item href="/">Software Development</NavDropdown.Item>
                                         <NavDropdown.Item href="/">CRM</NavDropdown.Item>
                                         <NavDropdown.Item href="/webDevelopment">Web Development</NavDropdown.Item>
-                                        <NavDropdown.Item href="/">Mobile App Development</NavDropdown.Item>
+                                        <NavDropdown.Item href="/mobileAppDevelopment">Mobile App Development</NavDropdown.Item>
                                         <NavDropdown.Item href="/">Ecommerce</NavDropdown.Item>
                                         <NavDropdown.Item href="/">Digital Marketing</NavDropdown.Item>
                                     </NavDropdown>
