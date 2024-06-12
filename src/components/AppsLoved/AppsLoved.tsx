@@ -49,15 +49,16 @@ export default function AppsLoved() {
                                                 <Image src={Images.team} alt='' fill priority />
                                             </div>
                                             <div className={style.title}>
-                                                <h6 className={style.head}>MyTeam11</h6>
+                                                <h6 className={style.head}>Sports Inning</h6>
                                                 <p className={style.desc}>Fantasy Sports App</p>
                                             </div>
                                         </div>
 
                                         <p className={style.middle_sec}>
-                                            MyTeam11 is India’s most trusted fantasy sports game platform 2nd largest in India for
-                                            fans to play online fantasy games using their sports skills and knowledge. MyTeam11 is
-                                            an Indian based fantasy sports organization, offering 9 major sports to fantasy players.
+                                            Start playing on Sports Inning and get a dedicated account manager who will handle all your
+                                            queries. Lowest commission contests are her for you. Save your money every time when you join
+                                            a contest. Refer your friends and earn commission on every contest that your friends play.
+                                            Call us to know more.
                                         </p>
 
                                         <ul className={style.list}>
@@ -95,7 +96,7 @@ export default function AppsLoved() {
                         </div>
                     </SwiperSlide>
 
-                    <SwiperSlide>
+                    {/* <SwiperSlide>
                         <div className={style.slide}>
                             <div className="row">
                                 <div className="col-lg-5 col-md-5 col-sm-5">
@@ -221,7 +222,7 @@ export default function AppsLoved() {
                                 </div>
                             </div>
                         </div>
-                    </SwiperSlide>
+                    </SwiperSlide> */}
 
                 </Swiper>
             </div>

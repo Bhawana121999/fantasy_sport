@@ -59,6 +59,12 @@ import mobile_feat3 from '@/assets/images/mobile_feat3.webp'
 import mobile_feat4 from '@/assets/images/mobile_feat4.webp'
 import mobile_feat5 from '@/assets/images/mobile_feat5.webp'
 
+import icons1 from '@/assets/images/icons1.webp'
+import icons2 from '@/assets/images/icons2.webp'
+import icons3 from '@/assets/images/icons3.webp'
+import icons4 from '@/assets/images/icons4.webp'
+
+
 
 export const Images = {
 
@@ -118,4 +124,9 @@ export const Images = {
     mobile_feat3,
     mobile_feat4,
     mobile_feat5,
+
+    icons1,
+    icons2,
+    icons3,
+    icons4,
 }
