@@ -64,7 +64,8 @@ import icons2 from '@/assets/images/icons2.webp'
 import icons3 from '@/assets/images/icons3.webp'
 import icons4 from '@/assets/images/icons4.webp'
 import mlm from '@/assets/images/mlm.webp'
-
+import ecomm from '@/assets/images/ecomm.webp'
+import panel from '@/assets/images/panel.webp'
 
 
 export const Images = {
@@ -131,4 +132,6 @@ export const Images = {
     icons3,
     icons4,
     mlm,
+    ecomm,
+    panel,
 }

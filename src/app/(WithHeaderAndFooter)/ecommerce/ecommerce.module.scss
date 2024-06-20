@@ -1,0 +1,79 @@
+.app {
+    background-color: #f2f2f2;
+    height: 500px;
+
+    .heading {
+        font-size: 55px;
+        font-weight: 700;
+        color: #2E5490;
+        margin-bottom: 15px;
+    }
+
+    .para {
+        font-size: 18px;
+        font-weight: 400;
+        color: #797979;
+        margin-bottom: 0px;
+    }
+
+    .image {
+        width: 100%;
+        height: 450px;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+
+.intro {
+    padding: 60px 0px;
+
+    .image {
+        width: 100%;
+        height: 400px;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .heading {
+        font-size: 40px;
+        font-weight: 600;
+        color: #1a1a1a;
+        margin-bottom: 10px;
+    }
+
+    .para {
+        font-size: 16px;
+        font-weight: 400;
+        color: #797979;
+        margin-bottom: 8px;
+    }
+}
+
+
+.features {
+    padding-bottom: 60px;
+
+    .head {
+        font-size: 40px;
+        font-weight: 600;
+        color: #1a1a1a;
+        margin-bottom: 10px;
+    }
+
+    .para {
+        font-size: 18px;
+        font-weight: 400;
+        color: #666666;
+        margin-bottom: 40px;
+    }
+}

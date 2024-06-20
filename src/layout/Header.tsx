@@ -83,7 +83,7 @@ export default function Header() {
                                         <NavDropdown.Item href="/mlm">MLM Software Development</NavDropdown.Item>
                                         <NavDropdown.Item href="/webDevelopment">Web Development</NavDropdown.Item>
                                         <NavDropdown.Item href="/mobileAppDevelopment">Mobile App Development</NavDropdown.Item>
-                                        <NavDropdown.Item href="/">Ecommerce</NavDropdown.Item>
+                                        <NavDropdown.Item href="/ecommerce">Ecommerce</NavDropdown.Item>
                                         <NavDropdown.Item href="/">Digital Marketing</NavDropdown.Item>
                                     </NavDropdown>
                                     <Nav.Link href="/About" className={`${style.link} item`}>About</Nav.Link>
