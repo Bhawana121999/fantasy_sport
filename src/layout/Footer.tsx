@@ -71,7 +71,7 @@ export default function Footer() {
               <h5 className={style.heading}>Contact Us</h5>
               <ul className={style.list}>
                 <li className={style.item}><Link href='mailto:digitechuttarakhand@gmail.com'><FiMail /> <span>digitechuttarakhand@gmail.com</span></Link></li>
-                <li className={style.item}><Link href='tel:916398794536'><MdOutlinePhone /> <span>+91 6398794536</span></Link></li>
+                <li className={style.item}><Link href='tel:918267851405'><MdOutlinePhone /> <span>+91 8267851405</span></Link></li>
                 <li className={style.item}><Link href='#'><FaLocationDot /> <span>Tehri Nagar, Gate No-2,
                   Doon University Road, Dehradun, Uttarakhand - 248001</span></Link></li>
               </ul>

@@ -50,7 +50,7 @@ export default function Header() {
                     <div className="container">
                         <div className={style.content}>
                             <Link href='mailto:digitechuttarakhand@gmail.com' className='link'><LuMail /> digitechuttarakhand@gmail.com</Link>
-                            <Link href='tel:916398794536' className='link'><LuPhoneCall /> +91 6398794536</Link>
+                            <Link href='tel:918267851405' className='link'><LuPhoneCall /> +91 8267851405</Link>
                         </div>
                     </div>
                 </div>

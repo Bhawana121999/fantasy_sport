@@ -66,6 +66,14 @@ import icons4 from '@/assets/images/icons4.webp'
 import mlm from '@/assets/images/mlm.webp'
 import ecomm from '@/assets/images/ecomm.webp'
 import panel from '@/assets/images/panel.webp'
+import ecomm1 from '@/assets/images/ecomm1.webp'
+import ecomm2 from '@/assets/images/ecomm2.webp'
+import ecomm3 from '@/assets/images/ecomm3.webp'
+import ecomm4 from '@/assets/images/ecomm4.webp'
+import ecomm5 from '@/assets/images/ecomm5.webp'
+import ecomm6 from '@/assets/images/ecomm6.webp'
+import ecomm7 from '@/assets/images/ecomm7.webp'
+import mobile_img from '@/assets/images/mobile_img.webp'
 
 
 export const Images = {
@@ -134,4 +142,12 @@ export const Images = {
     mlm,
     ecomm,
     panel,
+    ecomm1,
+    ecomm2,
+    ecomm3,
+    ecomm4,
+    ecomm5,
+    ecomm6,
+    ecomm7,
+    mobile_img,
 }

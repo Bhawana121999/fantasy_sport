@@ -38,7 +38,7 @@ export default function Banner() {
 
         <div className={style.mobile}>
           <div className={style.image}>
-            <Image src={Images.app_screen} alt='' fill priority />
+            <Image src={Images.mobile_img} alt='' fill priority />
           </div>
         </div>
 
