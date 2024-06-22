@@ -74,6 +74,10 @@ import ecomm5 from '@/assets/images/ecomm5.webp'
 import ecomm6 from '@/assets/images/ecomm6.webp'
 import ecomm7 from '@/assets/images/ecomm7.webp'
 import mobile_img from '@/assets/images/mobile_img.webp'
+import digi_banner from '@/assets/images/digi_banner.webp'
+import digi1 from '@/assets/images/digi1.png'
+import digi2 from '@/assets/images/digi2.png'
+import digi3 from '@/assets/images/digi3.png'
 
 
 export const Images = {
@@ -150,4 +154,8 @@ export const Images = {
     ecomm6,
     ecomm7,
     mobile_img,
+    digi_banner,
+    digi1,
+    digi2,
+    digi3,
 }

@@ -84,7 +84,7 @@ export default function Header() {
                                         <NavDropdown.Item href="/webDevelopment">Web Development</NavDropdown.Item>
                                         <NavDropdown.Item href="/mobileAppDevelopment">Mobile App Development</NavDropdown.Item>
                                         <NavDropdown.Item href="/ecommerce">Ecommerce</NavDropdown.Item>
-                                        <NavDropdown.Item href="/">Digital Marketing</NavDropdown.Item>
+                                        <NavDropdown.Item href="/digitalMarketing">Digital Marketing</NavDropdown.Item>
                                     </NavDropdown>
                                     <Nav.Link href="/About" className={`${style.link} item`}>About</Nav.Link>
                                     <Nav.Link href="/Contact" className={`${style.link} item`}>Contact Us </Nav.Link>

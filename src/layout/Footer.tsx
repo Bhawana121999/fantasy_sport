@@ -47,7 +47,7 @@ export default function Footer() {
                   <Link href="/matrimonial">Matrimonial App Development</Link>
                 </li>
                 <li>
-                  <Link href="">Digital Marketing Services</Link>
+                  <Link href="/digitalMaketing">Digital Marketing Services</Link>
                 </li>
               </ul>
             </div>
