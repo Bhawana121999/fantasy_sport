@@ -78,14 +78,24 @@ export default function Header() {
                                         menuVariant="dark"
                                         className={`${style.link} item`}
                                     >
-                                        <NavDropdown.Item href="/FantasySports">Fantasy Sports Application</NavDropdown.Item>
                                         <NavDropdown.Item href="/softwareDevelopment">Software Development</NavDropdown.Item>
-                                        <NavDropdown.Item href="/mlm">MLM Software Development</NavDropdown.Item>
                                         <NavDropdown.Item href="/webDevelopment">Web Development</NavDropdown.Item>
                                         <NavDropdown.Item href="/mobileAppDevelopment">Mobile App Development</NavDropdown.Item>
+                                    </NavDropdown>
+
+                                    <NavDropdown
+                                        id="nav-dropdown-dark-example"
+                                        title="Solutions"
+                                        menuVariant="dark"
+                                        className={`${style.link} item`}
+                                    >
+                                        <NavDropdown.Item href="/FantasySports">Fantasy Sports Application</NavDropdown.Item>
+                                        <NavDropdown.Item href="/mlm">MLM Software Development</NavDropdown.Item>
+                                        <NavDropdown.Item href="/matrimonial">Matrimonial App Development</NavDropdown.Item>
                                         <NavDropdown.Item href="/ecommerce">Ecommerce</NavDropdown.Item>
                                         <NavDropdown.Item href="/digitalMarketing">Digital Marketing</NavDropdown.Item>
                                     </NavDropdown>
+
                                     <Nav.Link href="/About" className={`${style.link} item`}>About</Nav.Link>
                                     <Nav.Link href="/Contact" className={`${style.link} item`}>Contact Us </Nav.Link>
                                 </Nav>

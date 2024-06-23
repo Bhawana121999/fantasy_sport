@@ -90,14 +90,16 @@
         background-color: #2e5490;
         padding: 2pc;
         align-items: flex-start;
+        justify-content: center;
         position: relative;
         z-index: 2;
+        height: 560px;
 
         .nav_link:global(.nav-link.active) {
             width: 100%;
             background-color: #fff;
             border-radius: 0;
-            padding: 15px 1pc;
+            padding: 25px 1pc;
             margin-right: -3pc;
             color: #1a1a1a;
             text-align: left;
@@ -109,7 +111,7 @@
             font-size: 18px;
             font-weight: 600;
             color: #fff;
-            padding: 15px 1pc;
+            padding: 25px 1pc;
         }
     }
 
