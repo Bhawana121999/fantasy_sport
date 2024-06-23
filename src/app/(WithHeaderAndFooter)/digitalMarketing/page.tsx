@@ -1,10 +1,15 @@
-import React from 'react'
+'use client'
+
+import React, { useState } from 'react'
 import style from '@/app/(WithHeaderAndFooter)/digitalMarketing/digitalMarketing.module.scss'
 import Image from 'next/image'
 import { Images } from '@/assets/utility/Images'
+import check from '@/assets/images/check.webp'
+import CoonectModal from '@/components/CoonectModal'
 
 export default function page() {
 
+    const [modalShow, setModalShow] = useState(false)
 
     return (
 
@@ -117,7 +122,7 @@ export default function page() {
                         </div>
 
                         <div className={`${style.content} col-auto`}>
-                            <h2 className={style.head}>IndustryRelevant Skills</h2>
+                            <h2 className={style.head}>Industry Relevant Skills</h2>
                             <p className={style.para}>Our course is designed to keep you updated with the latest trends and
                                 techniques in digital marketing, making you a valuable asset in any business field.</p>
                         </div>
@@ -125,6 +130,93 @@ export default function page() {
                     </div>
                 </div>
             </div>
+
+
+            <div className={style.course}>
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-5 col-md-5 col-sm-5">
+                            <h2 className={style.heading}>Opportunities After Completing the Course</h2>
+                            <p className={style.para}>Upon completing our digital marketing course, you&#39;ll be well prepared for a variety of roles in the
+                                digital marketing domain. The skills you acquire will make you eligible for positions such as:</p>
+
+                            <ul className={style.list}>
+                                <li className={style.item}>
+                                    <div className={style.icon}>
+                                        <Image src={check} alt='' fill priority />
+                                    </div>
+                                    <h2 className={style.head}>SEO Specialist</h2>
+                                </li>
+
+                                <li className={style.item}>
+                                    <div className={style.icon}>
+                                        <Image src={check} alt='' fill priority />
+                                    </div>
+                                    <h2 className={style.head}>Social Media Manager</h2>
+                                </li>
+
+                                <li className={style.item}>
+                                    <div className={style.icon}>
+                                        <Image src={check} alt='' fill priority />
+                                    </div>
+                                    <h2 className={style.head}>PPC Expert</h2>
+                                </li>
+
+                                <li className={style.item}>
+                                    <div className={style.icon}>
+                                        <Image src={check} alt='' fill priority />
+                                    </div>
+                                    <h2 className={style.head}>Content Strategist</h2>
+                                </li>
+
+                                <li className={style.item}>
+                                    <div className={style.icon}>
+                                        <Image src={check} alt='' fill priority />
+                                    </div>
+                                    <h2 className={style.head}>Email Marketing Specialist</h2>
+                                </li>
+
+                                <li className={style.item}>
+                                    <div className={style.icon}>
+                                        <Image src={check} alt='' fill priority />
+                                    </div>
+                                    <h2 className={style.head}>Digital Marketing Manager</h2>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="col-lg-7 col-md-7 col-sm-7">
+                            <div className={style.image}>
+                                <Image src={Images.digi_main} alt='' fill priority />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className={style.form}>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-12 col-md-12 col-sm-12 text-center">
+                            <h4 className={style.form_head}>Join Us at Digitech Uttarakhand</h4>
+                            <p className={style.form_para}>If you&#39;re ready to take your career to the next level, Digitech Uttarakhand is the best place to
+                                start. Our digital marketing course in Dehradun offers unparalleled training, handson
+                                experience, and the opportunity to work on live projects. Transform your future and stay ahead in the competitive digital world. Enroll now and unlock
+                                endless opportunities in the field of digital marketing.</p>
+
+                            <button onClick={() => setModalShow(true)} className={style.btn1}>Let's Talk</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <CoonectModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+            />
         </>
     )
 }

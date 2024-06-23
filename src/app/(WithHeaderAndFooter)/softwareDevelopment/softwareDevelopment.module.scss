@@ -9,17 +9,11 @@
         margin-bottom: 15px;
     }
 
-    .para {
-        font-size: 18px;
-        font-weight: 400;
-        color: #797979;
-        margin-bottom: 0px;
-    }
-
     .image {
         width: 100%;
         height: 450px;
         position: relative;
+        margin-top: 20px;
 
         img {
             width: 100%;
@@ -33,7 +27,7 @@
 .intro {
     padding: 60px 0px;
 
-    .heading {
+    .head {
         font-size: 40px;
         font-weight: 600;
         color: #1a1a1a;
@@ -46,134 +40,95 @@
         color: #797979;
         margin-bottom: 0px;
     }
+
 }
 
 
-.feature {
+
+.solutions {
     padding: 0px 0px 60px 0px;
 
     .heading {
         font-size: 40px;
         font-weight: 600;
         color: #1a1a1a;
-        margin-bottom: 10px;
+        margin-bottom: 40px;
     }
 
-    .para {
-        font-size: 18px;
-        font-weight: 400;
-        color: #797979;
-        margin-bottom: 50px;
+    .image {
+        width: 100%;
+        height: 450px;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+            border-top-left-radius: 55px;
+            border-bottom-right-radius: 55px;
+        }
     }
 
     .content {
-        width: 20%;
-        display: flex;
-        flex-direction: column;
-        align-items: left;
-        gap: 12px;
-        border-right: 1px solid #cdcdcd;
-
-        .circle {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            background-color: #2E5490;
-            display: flex;
-
-            .image {
-                width: 45px;
-                height: 45px;
-                position: relative;
-                margin: auto;
-
-                img {
-                    width: 100%;
-                    height: 100%;
-                }
-            }
-        }
-
         .head {
-            font-size: 20px;
+            font-size: 32px;
             font-weight: 600;
             color: #2E5490;
-            margin-bottom: 0px;
+            margin-bottom: 10px;
         }
 
         .para {
             font-size: 16px;
             font-weight: 400;
             color: #797979;
-            margin-bottom: 0px;
-            text-align: left;
-        }
-    }
-
-    .content:last-child {
-        border-right: none;
-    }
-}
-
-
-.services {
-    padding: 0px 0px 60px 0px;
-
-    .heading {
-        font-size: 40px;
-        font-weight: 600;
-        color: #1a1a1a;
-        margin-bottom: 10px;
-    }
-
-    .para {
-        font-size: 18px;
-        font-weight: 400;
-        color: #797979;
-        margin-bottom: 50px;
-    }
-
-    .main_contents {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        gap: 15px;
-        background-color: #fff;
-        box-shadow: 0 1px 15px 1px rgba(0, 0, 0, .04), 0 1px 6px rgba(0, 0, 0, .04);
-        padding: 25px;
-        flex-wrap: wrap;
-        margin-bottom: 20px;
-
-        .image {
-            width: 60px;
-            height: 60px;
-            position: relative;
-            flex: 1;
-
-            img {
-                width: 100%;
-                height: 100%;
-            }
+            margin-bottom: 25px;
         }
 
-        .main {
+        .list {
+            margin: 0px;
+            padding: 0px;
             display: flex;
             flex-direction: column;
-            gap: 12px;
-            flex: 8;
+            gap: 20px;
 
-            .head {
-                font-size: 20px;
-                font-weight: 500;
-                color: #1a1a1a;
-                margin-bottom: 0;
-            }
+            .item {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 12px;
+                flex-wrap: wrap;
 
-            .para {
-                font-size: 16px;
-                font-weight: 400;
-                color: #797979;
-                margin-bottom: 0px;
+                .icon {
+                    width: 40px;
+                    height: 40px;
+                    position: relative;
+                    flex: 1;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+
+                .main {
+                    display: flex;
+                    flex-direction: column;
+                    flex: 15;
+
+                    .text {
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: #1a1a1a;
+                        margin-bottom: 0px;
+                    }
+
+                    .para {
+                        font-size: 15px;
+                        font-weight: 400;
+                        color: #797979;
+                        margin-bottom: 0px;
+                    }
+                }
+
             }
         }
     }

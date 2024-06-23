@@ -78,6 +78,37 @@ import digi_banner from '@/assets/images/digi_banner.webp'
 import digi1 from '@/assets/images/digi1.png'
 import digi2 from '@/assets/images/digi2.png'
 import digi3 from '@/assets/images/digi3.png'
+import digi_main from '@/assets/images/digi_main.webp'
+import soft_main from '@/assets/images/soft_main.webp'
+import soft_img1 from '@/assets/images/soft_img1.webp'
+import soft1 from '@/assets/images/soft1.webp'
+import soft2 from '@/assets/images/soft2.webp'
+import soft3 from '@/assets/images/soft3.webp'
+import soft4 from '@/assets/images/soft4.webp'
+import soft_img2 from '@/assets/images/soft_img2.webp'
+import soft_img3 from '@/assets/images/soft_img3.webp'
+import soft_img4 from '@/assets/images/soft_img4.webp'
+import soft_img5 from '@/assets/images/soft_img5.webp'
+import soft_img6 from '@/assets/images/soft_img6.webp'
+import soft5 from '@/assets/images/soft5.webp'
+import soft6 from '@/assets/images/soft6.webp'
+import soft7 from '@/assets/images/soft7.webp'
+import soft8 from '@/assets/images/soft8.webp'
+import soft9 from '@/assets/images/soft9.webp'
+import soft10 from '@/assets/images/soft10.webp'
+import soft11 from '@/assets/images/soft11.webp'
+import soft12 from '@/assets/images/soft12.webp'
+import soft13 from '@/assets/images/soft13.webp'
+import soft14 from '@/assets/images/soft14.webp'
+import soft15 from '@/assets/images/soft15.webp'
+import soft16 from '@/assets/images/soft16.webp'
+import soft17 from '@/assets/images/soft17.webp'
+import soft18 from '@/assets/images/soft18.webp'
+import soft19 from '@/assets/images/soft19.webp'
+import soft20 from '@/assets/images/soft20.webp'
+import soft21 from '@/assets/images/soft21.webp'
+import soft22 from '@/assets/images/soft22.webp'
+import soft23 from '@/assets/images/soft23.webp'
 
 
 export const Images = {
@@ -158,4 +189,35 @@ export const Images = {
     digi1,
     digi2,
     digi3,
+    digi_main,
+    soft_main,
+    soft_img1,
+    soft1,
+    soft2,
+    soft3,
+    soft4,
+    soft_img2,
+    soft_img3,
+    soft_img4,
+    soft_img5,
+    soft_img6,
+    soft5,
+    soft6,
+    soft7,
+    soft8,
+    soft9,
+    soft10,
+    soft11,
+    soft12,
+    soft13,
+    soft14,
+    soft15,
+    soft16,
+    soft17,
+    soft18,
+    soft19,
+    soft20,
+    soft21,
+    soft22,
+    soft23,
 }
