@@ -96,6 +96,15 @@ export default function Header() {
                                         <NavDropdown.Item href="/digitalMarketing">Digital Marketing</NavDropdown.Item>
                                     </NavDropdown>
 
+                                    <NavDropdown
+                                        id="nav-dropdown-dark-example"
+                                        title="Course"
+                                        menuVariant="dark"
+                                        className={`${style.link} item`}
+                                    >
+                                        <NavDropdown.Item href="/digitalMarketing">Digital Marketing Course</NavDropdown.Item>
+                                    </NavDropdown>
+
                                     <Nav.Link href="/About" className={`${style.link} item`}>About</Nav.Link>
                                     <Nav.Link href="/Contact" className={`${style.link} item`}>Contact Us </Nav.Link>
                                 </Nav>

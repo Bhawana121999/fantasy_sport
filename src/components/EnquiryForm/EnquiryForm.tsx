@@ -9,8 +9,8 @@ export default function EnquiryForm() {
 
         <div className={style.form}>
             <div className="container">
-                <div className="row justify-content-between">
-                    <div className="col-lg-5 col-md-5 col-sm-5">
+                <div className="row justify-content-center">
+                    <div className="col-lg-10 col-md-10 col-sm-10">
                         <div className={style.content}>
                             <h1 className={style.heading}>Interested in working</h1>
                             <p className={style.para}>with us? Let's talk and get started</p>
@@ -41,11 +41,11 @@ export default function EnquiryForm() {
                         </div>
                     </div>
 
-                    <div className="col-lg-6 col-md-6 col-sm-6">
+                    {/* <div className="col-lg-6 col-md-6 col-sm-6">
                         <div className={style.image}>
                             <Image src={Images.form} alt='' fill priority />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
